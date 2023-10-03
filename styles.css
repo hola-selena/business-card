@@ -1,0 +1,42 @@
+
+body {
+    margin: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.avatar {
+    width: 150px;
+    animation: 3s infinite alternate slidein;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #FAF9F6;
+    color: #1b271c;
+    border-bottom: 6px solid  #8ca68e;
+    border-radius: 30px;
+    border-top: 1px double #8ca68e; 
+}
+
+img:hover {
+    content: url("foto-3.png");
+    border-radius: 15px;
+ } 
+
+h3:hover, h4:hover, p:hover {
+    color: #8ca68e;
+}
+
+.typography {
+    color: #3a543c;
+}
+
+.border-blue {
+    border: 1px solid #8ca68e;
+}
+
